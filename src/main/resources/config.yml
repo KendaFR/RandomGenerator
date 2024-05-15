@@ -1,0 +1,33 @@
+########################################################
+#                    Author: Kenda                     #
+#                 Created: 15/05/2024                  #
+#               Plugin: RandomGenerator                #
+#  github: https://github.com/KendaFR/RandomGenerator  #
+########################################################
+
+prefix: "&f[&aRandomGenerator&f]"
+
+#Liste des items à généré
+category:
+  #Le type de la categorie
+  #La liste des matériaux se trouve ici
+  #https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  items:
+    #Le mot clé permettant de faire la recherche
+    #Exemple: /rd block <...>
+    block:
+    - STONE
+    - GRANITE
+    - POLISHED_GRANITE
+    - DIORITE
+    - POLISHED_DIORITE
+    - ANDESITE
+    - CAMPFIRE
+    - SOUL_CAMPFIRE
+    - TNT
+  summon:
+    boss:
+      - WITHER
+    mobs:
+      - CREEPER
+
