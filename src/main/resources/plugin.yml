@@ -1,0 +1,8 @@
+name: RandomGenerator
+version: '${project.version}'
+main: fr.kenda.randomgenerator.RandomGenerator
+api-version: '1.20'
+commands:
+  random:
+    aliases:
+      - rd
